@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family:  'Lucida Grande';
+}
+header{
+    padding: 5px;
+    background-color:rgba(34, 49, 52, 0.9) ;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+header ul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+.section{
+    color: #5f5d60;margin-top: 0;
+}
+.top-wrapper{
+    background-image:url(images/top_en.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 200px 0 100px 0;
+}
+.top-wrapper h1{
+    text-align: center;
+    margin-top: 0;
+}
+/* .lesson-wrapper{
+    padding-bottom: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 24px;
+} */
