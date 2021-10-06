@@ -3,7 +3,7 @@ body{
     font-family:  'Lucida Grande';
 }
 header{
-    padding: 5px;
+    padding: 5px ;
     background-color:rgba(34, 49, 52, 0.9) ;
 }
 header ul{
@@ -21,23 +21,42 @@ header ul li a{
     color: white;
     text-decoration: none;
 }
-.section{
-    color: #5f5d60;margin-top: 0;
-}
 .top-wrapper{
     background-image:url(images/top_en.png);
     background-position: center;
     background-size: cover;
     color: white;
-    padding: 200px 0 100px 0;
+    padding:1px 0 200px 0;
 }
 .top-wrapper h1{
     text-align: center;
-    margin-top: 0;
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 0.7;
 }
-/* .lesson-wrapper{
+.top-wrapper p{
+    text-align: center;
+    opacity: 0.7;
+}
+.btn{
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+    border-radius: 4px;
+    text-align: center;
+}
+.signup{
+    background-color:#239b76 ;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+.lesson-wrapper{
     padding-bottom: 30px;
     padding-bottom: 30px;
     text-align: center;
     font-size: 24px;
-} */
+}
