@@ -39,24 +39,35 @@ header ul li a{
     opacity: 0.7;
 }
 .btn{
-    padding: 12px 24px;
+    padding: 12px 14px;
     color: white;
     display: inline-block;
-    opacity: 0.7;
+    opacity: 0.8;
     border-radius: 4px;
     text-align: center;
 }
+.btn p{
+    margin-left: 480px;
+    font-weight: bold;
+}
 .signup{
     background-color:#239b76 ;
-    text-align: center;
+}
+.twitter{
+    background-color: #55acee;
+}
+.facebook{
+    background-color: #3b5998;
 }
 a{
     text-decoration: none;
 }
 
 .lesson-wrapper{
-    padding-bottom: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     text-align: center;
+    background-color:#f7f7f7 ;
     font-size: 24px;
+    height: 550px;
+    display: block;
 }
