@@ -39,7 +39,7 @@ header ul li a{
     opacity: 0.7;
 }
 .btn{
-    padding: 12px 14px;
+    padding: 12px 100px;
     color: white;
     display: inline-block;
     opacity: 0.8;
@@ -50,6 +50,9 @@ header ul li a{
 .btn p{
     margin-left: 480px;
     font-weight: bold;
+}
+.fa{
+    margin-right:5px;
 }
 .signup{
     background-color:#239b76 ;
@@ -86,5 +89,7 @@ a{
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 16px;
-    text-align: center;
+}
+.image-text{
+    display: inline-block;
 }
