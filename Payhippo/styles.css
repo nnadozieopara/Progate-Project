@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+header {
+    background-image: url(./assets/mainbackground.png);
+    background-size: cover;
+}
+
+.container {
+    height: 70vh;
+}
+
+nav {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+}
+
+.right-section {
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #1D293F;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav-btn-group {
+    margin-left: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.login {
+    background-color: #DFE3FF;
+    color: #1123AB;
+}
+
+.primary {
+    background-color: #1123AB;
+    color: #E9F7FE;
+}
+
+.header-body {
+    margin-top: 13%;
+    width: 30%;
+    margin-left: 15%;
+}
+
+.title {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 15;
+}
+
+.blue {
+    color: #0F2262;
+}
+
+.text {
+    color: #4E4E4E;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 10;
+}
+
+.cta {
+    margin-top: 10px;
+}
+
+.solution {
+    width: 30%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.solution-icon {
+    width: 56px;
+}
+
+.grey {
+    color: #1D293F
+}
+
+.solution-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #646568;
+}

@@ -90,6 +90,6 @@ a{
     transform: translate(-50%,-50%);
     font-size: 16px;
 }
-.image-text{
+.image-text div p{
     display: inline-block;
 }
